@@ -30,6 +30,7 @@ OWNER_ID_STR = os.getenv('OWNER_ID')
 ADMIN_ID_STR = os.getenv('ADMIN_ID')
 YOUR_USERNAME = os.getenv('YOUR_USERNAME')
 UPDATE_CHANNEL = os.getenv('UPDATE_CHANNEL')
+YOUTUBE_CHANNEL = os.getenv('YOUTUBE_CHANNEL')
 
 if not TOKEN:
     logger.error("BOT_TOKEN not found in environment variables!")
